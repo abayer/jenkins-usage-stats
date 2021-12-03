@@ -48,3 +48,4 @@ Run `make build` to generate `build/jenkins-usage-stats`, compiled for your curr
 #### Local usage
 
 Run `make migrate` - by default, this will expect to be able to use the `postgres` user against localhost without authentication, and that the `jenkins_usage_stats` database already exists. You can use `testdata/report-stats` as a small (22 days) dataset to import.
+
